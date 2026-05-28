@@ -1,4 +1,4 @@
-import 'dart:typed_data'; // Needed for Uint8List
+// Needed for Uint8List
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:intl/intl.dart';
