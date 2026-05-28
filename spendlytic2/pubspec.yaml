@@ -1,0 +1,34 @@
+name: spendlytic
+description: "A new Flutter project."
+publish_to: 'none'
+version: 0.1.0
+
+environment:
+  sdk: ^3.10.1
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.8
+  flutter_dotenv: ^6.0.0
+  supabase_flutter: ^2.12.0
+  local_auth: ^2.1.6
+  fl_chart: ^1.1.1
+  intl: ^0.20.2
+  lottie: ^3.1.0
+  flutter_bloc: ^9.1.1
+  easy_localization: ^3.0.7
+  table_calendar: ^3.1.3
+  image_picker: ^1.2.1
+  google_fonts: ^7.0.2
+  syncfusion_flutter_datepicker: ^32.1.24
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - .env
